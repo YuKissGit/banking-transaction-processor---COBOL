@@ -1,0 +1,7 @@
+======== END OF DAY REPORT ========
+TOTAL TRANSACTIONS READ:           6.00
+TOTAL SUCCESSFUL:                  2.00
+TOTAL FAILED:                      4.00
+TOTAL DEPOSIT AMOUNT:            200.00
+TOTAL WITHDRAW AMOUNT:           100.00
+===================================
