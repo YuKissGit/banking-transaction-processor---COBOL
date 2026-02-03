@@ -37,7 +37,7 @@ cobc -v
 ```
 
 If the installation was successful, you will see output similar to: 
-
+![cobc -v](note/image/version.png)
 **Note**: You might see an error message at the end saying: 
 ```
 cobc: error: no input files
@@ -50,6 +50,7 @@ Since the compiler didn't know what work to do, it reported an error and quit.
 ```
 cobc -h
 ```
+![cobc -h](note/image/cobc-h.png)
 5. To compile a .cob file into an executable, use the -x flag. You can specify the output filename using the -o flag:
 ```
 cobc -x fileName.cob -o executableFileName
