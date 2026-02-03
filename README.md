@@ -53,12 +53,11 @@ cobc -h
 ```
 <img src="note/image/cobc-h.png" width="700">  
 
-5. To compile a .cob file into an executable, use the -x flag. You can specify the output filename using the -o flag:
+5. To compile a .cob file into an executable file, use the -x. You can specify the output filename using the -o flag:
 ```
 cobc -x fileName.cob -o executableFileName
 ```
-6. This will compile your source code and generate a single executable file. 
-To run your program, simply execute the generated file:
+6. To run your program, simply execute the generated file:
 ```
 ./executableFileName
 ```
