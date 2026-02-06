@@ -36,14 +36,14 @@ This was my first small hint that COBOL might be designed with a very different 
 One of the first things I noticed is that traditional COBOL uses a fixed, column-based format.
 After reading more about its background, I learned that this design comes from history. Early COBOL programs were written using 80-column punch cards, and each column had a specific purpose. 
 Because of this, COBOL source code was divided into different areas on each line.
-<img src="note/image/image033.jpg" width="700">
+<img src="./image/cobol-form.png" width="700">
 
 **The classic COBOL line layout**
 - Sequence number area (columns 1–6)
 - Indicator area (column 7)
 - Area A (columns 8–11) mainly defines the structure
 - Area B (columns 12–72) contains most of the actual logic
-<img src="note/image/image033.jpg" width="700">
+<img src="./image/cobol-column.png" width="700">
 
 Modern COBOL compilers often support free format, these column rules are not always required today.
 However, many existing COBOL systems still follow this style, so learning it seems important for understanding real-world code.
