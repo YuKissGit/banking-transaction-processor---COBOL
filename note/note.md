@@ -65,6 +65,7 @@ Within these divisions, code can be further organized using:
 - STATEMENTS
 
 It looks like this:
+
 <img src="./image/cobol-data.png" width="700">
 
 In COBOL, there are almost no symbols to indicate scope. Instead, scope is defined entirely by structure and hierarchy.
