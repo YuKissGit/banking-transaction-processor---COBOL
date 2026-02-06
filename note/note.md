@@ -64,13 +64,8 @@ Within these divisions, code can be further organized using:
 - PARAGRAPH
 - STATEMENTS
 
-Conceptually, it looks like this:
-```
-DIVISION
-SECTION
-PARAGRAPH
-      STATEMENTS (start from column 12)
-```
+It looks like this:
+<img src="./image/cobol-data.png" width="700">
 
 In COBOL, there are almost no symbols to indicate scope. Instead, scope is defined entirely by structure and hierarchy.
 This gave me a feeling that COBOL is closer to SQL than to C++. You must explicitly declare what this part is, what role it plays, and where it belongs.
