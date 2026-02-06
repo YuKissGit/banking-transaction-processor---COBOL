@@ -64,3 +64,4 @@ cobc -x fileName.cob -o executableFileName
 ---
 
 ## COBOL learning note
+[note click here](note/note.md)
